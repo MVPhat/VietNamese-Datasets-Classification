@@ -18,11 +18,11 @@ Waiting for uploading demo...
 
 ## Prerequisites
 
-Before starting the project, you should install necessary dependencies in your device, but I recommend upload the file on [Google Colab](https://colab.research.google.com/) because of several conveniences.
+Before starting the project, you should install necessary dependencies in your device, but I recommend upload the file on <a href="https://colab.research.google.com/"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a> because of several conveniences.
 
 ## Dataset Preparation
 
-My dataset usage is downloaded from [Kaggle](https://www.kaggle.com/datasets/nguyentrongdai/vietnamese-currency). This dataset contains 11 currencies of vietnam dong. Nonetheless, The dataset is lack of data if we split into 3 subsets; therefore, you can use different dataset versions from [Roboflow](https://universe.roboflow.com/cv-aal82/vietnamese-currency-detector/dataset/7/images).
+My dataset usage is downloaded from <a href="https://www.kaggle.com/datasets/nguyentrongdai/vietnamese-currency"><img src="https://kaggle.com/static/images/open-in-kaggle.svg"></a>. This dataset contains 11 currencies of vietnam dong. Nonetheless, The dataset is lack of data if we split into 3 subsets; therefore, you can use different dataset versions from [Roboflow](https://universe.roboflow.com/cv-aal82/vietnamese-currency-detector/dataset/7/images).
 
 The structure of dataset after pre-processing should be:
 
