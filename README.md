@@ -8,7 +8,9 @@ Vietnamese Currencies Classification addresses a prevalent challenge in Vietnam 
 
 - [Demo](#demo)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Dataset Preparation](#dataset-preparation)
+- [Model Architecture](#model-architecture)
+- [Training and Evaluation](#training-and-evaluation)
 
 ## Demo
 
@@ -48,8 +50,8 @@ VietNamese_Currency
 
 I leverage the pretrained model YOLOv8 (weights: [yolov8n-cls.pt](https://docs.ultralytics.com/tasks/classify/#models)), which is trained on ImageNet dataset.
 
-## Training & Evaluation
+## Training and Evaluation
 
-In my experiment, I will use some `augmentation data techniques`, including rotation, translation, etc. If you want to modify the configurations, please visit [Ultralytics Docs](https://docs.ultralytics.com/usage/cfg/#train)
+In my experiment, I will use some `augmentation data techniques`, including rotation, translation, etc. If you want to modify the configurations, please visit [Ultralytics Docs](https://docs.ultralytics.com/usage/cfg/#train) for more details.
 
 After training, the results will be stored in `runs/classify/train`, which includes 2 weights files, best and last, respectively. In addition, some evaluation metrics such as confusion matrix, confusion_matrix_normalized and visualization of training data are stored in the same path.
