@@ -26,7 +26,7 @@ My dataset usage is downloaded from [Kaggle](https://www.kaggle.com/datasets/ngu
 
 The structure of dataset after pre-processing should be:
 
-```json
+```
 VietNamese_Currency
 |
 --- train
